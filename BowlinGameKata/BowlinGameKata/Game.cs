@@ -23,22 +23,37 @@ namespace BowlinGameKata
             {
                 if (rolls[roll] == 10)
                 {
-                    score += 10 + rolls[roll + 1] + rolls[roll+2];
+                    score += 10 + StrikeBonus(roll);
                     roll++;
                 }
                 else if (IsSpare(roll))
                 {
-                    score += 10 + rolls[roll + 2];
+                    score += 10 + SpareBonus(roll);
                     roll += 2;
                 }
                 else
                 {
-                    score += rolls[roll] + rolls[roll + 1];
+                    score += SumOfBallsInFrame(roll);
                     roll += 2;
                 }
                 roll += 2;
             }
             return score;
+        }
+
+        private int StrikeBonus(int roll)
+        {
+            return rolls[roll + 1] + rolls[roll + 2];
+        }
+
+        private int SpareBonus(int roll)
+        {
+            return rolls[roll + 2];
+        }
+
+        private int SumOfBallsInFrame(int roll)
+        {
+            return rolls[roll] + rolls[roll + 1];
         }
 
         private bool IsSpare(int roll)

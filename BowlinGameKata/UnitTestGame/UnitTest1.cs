@@ -49,12 +49,23 @@ namespace UnitTestGame
         [TestMethod]
         public void TestOneSpare()
         {
-            g.Roll(10);//strile
+            RollSpare();
             RollSpare();
             g.Roll(3);
             RollMany(17, 0);
 
             Assert.AreEqual(16, g.Score());
+        }
+
+        [TestMethod]
+        public void TestOneStrike()
+        {
+            g.Roll(10);//strile
+            g.Roll(3);
+            g.Roll(4);
+            RollMany(16, 0);
+
+            Assert.AreEqual(24, g.Score());
         }
 
         private void RollSpare()
