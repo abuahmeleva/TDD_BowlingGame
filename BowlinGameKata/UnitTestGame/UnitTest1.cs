@@ -8,8 +8,10 @@ namespace UnitTestGame
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestGutterGame()
         {
+            Game g = new Game();
         }
+
     }
 }
