@@ -1,0 +1,12 @@
+C:\Users\Anastasia\Desktop\Новая папка\TDD\BowlinGameKata\BowlinGameKata\bin\Debug\BowlinGameKata.exe.config
+C:\Users\Anastasia\Desktop\Новая папка\TDD\BowlinGameKata\BowlinGameKata\bin\Debug\BowlinGameKata.exe
+C:\Users\Anastasia\Desktop\Новая папка\TDD\BowlinGameKata\BowlinGameKata\bin\Debug\BowlinGameKata.pdb
+C:\Users\Anastasia\Desktop\Новая папка\TDD\BowlinGameKata\BowlinGameKata\obj\Debug\BowlinGameKata.csprojResolveAssemblyReference.cache
+C:\Users\Anastasia\Desktop\Новая папка\TDD\BowlinGameKata\BowlinGameKata\obj\Debug\BowlinGameKata.exe
+C:\Users\Anastasia\Desktop\Новая папка\TDD\BowlinGameKata\BowlinGameKata\obj\Debug\BowlinGameKata.pdb
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\BowlinGameKata\bin\Debug\BowlinGameKata.exe.config
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\BowlinGameKata\obj\Debug\BowlinGameKata.exe
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\BowlinGameKata\obj\Debug\BowlinGameKata.pdb
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\BowlinGameKata\bin\Debug\BowlinGameKata.exe
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\BowlinGameKata\bin\Debug\BowlinGameKata.pdb
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\BowlinGameKata\obj\Debug\BowlinGameKata.csprojResolveAssemblyReference.cache

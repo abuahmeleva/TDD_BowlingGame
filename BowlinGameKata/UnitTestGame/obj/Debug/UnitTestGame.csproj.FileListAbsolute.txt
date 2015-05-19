@@ -1,0 +1,8 @@
+C:\Users\Anastasia\Desktop\Новая папка\TDD\BowlinGameKata\UnitTestGame\obj\Debug\UnitTestGame.csprojResolveAssemblyReference.cache
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\UnitTestGame\bin\Debug\UnitTestGame.dll
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\UnitTestGame\bin\Debug\UnitTestGame.pdb
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\UnitTestGame\bin\Debug\BowlinGameKata.exe
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\UnitTestGame\bin\Debug\BowlinGameKata.pdb
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\UnitTestGame\obj\Debug\UnitTestGame.csprojResolveAssemblyReference.cache
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\UnitTestGame\obj\Debug\UnitTestGame.dll
+C:\Users\Anastasia\Desktop\TDD_Bowling Game\BowlinGameKata\UnitTestGame\obj\Debug\UnitTestGame.pdb
