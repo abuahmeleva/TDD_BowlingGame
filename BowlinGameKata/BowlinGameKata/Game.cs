@@ -21,7 +21,7 @@ namespace BowlinGameKata
             int roll = 0;
             for (int frame = 0; frame < 10; frame++)
             {
-                if (rolls[roll] == 10)
+                if (IsStrake(roll))
                 {
                     score += 10 + StrikeBonus(roll);
                     roll++;
@@ -60,5 +60,11 @@ namespace BowlinGameKata
         {
             return rolls[roll] + rolls[roll + 1] == 10;
         }
+
+        private bool IsStrake(int roll)
+        {
+            return rolls[roll] == 10;
+        }
+
     }
 }
