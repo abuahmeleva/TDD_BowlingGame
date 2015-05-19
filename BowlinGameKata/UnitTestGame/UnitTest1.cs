@@ -16,6 +16,8 @@ namespace UnitTestGame
             {
                 g.Roll(0);
             }
+
+            Assert.AreEqual(0, g.Score());
         }
 
     }
