@@ -8,9 +8,12 @@ namespace BowlinGameKata
     public class Game
     {
         private int score;
+        private int[] rolls = new int[21];
+        private int currentRoll;
 
         public void Roll(int pins)
         {
+            rolls[currentRoll++] = pins;
             score += pins;
         }
 
