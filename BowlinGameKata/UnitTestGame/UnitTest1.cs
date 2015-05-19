@@ -60,12 +60,20 @@ namespace UnitTestGame
         [TestMethod]
         public void TestOneStrike()
         {
-            RollStrake();
+            RollStrike();
             g.Roll(3);
             g.Roll(4);
             RollMany(16, 0);
 
             Assert.AreEqual(24, g.Score());
+        }
+
+        [TestMethod]
+        public void TestPerfectGame()
+        {
+            RollMany(12,10);
+
+            Assert.AreEqual(300, g.Score());
         }
 
         private void RollSpare()
