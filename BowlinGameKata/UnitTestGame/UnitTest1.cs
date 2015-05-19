@@ -49,7 +49,7 @@ namespace UnitTestGame
         [TestMethod]
         public void TestOneSpare()
         {
-
+            g.Roll(10);//strile
             RollSpare();
             g.Roll(3);
             RollMany(17, 0);
