@@ -50,7 +50,6 @@ namespace UnitTestGame
         public void TestOneSpare()
         {
             RollSpare();
-            RollSpare();
             g.Roll(3);
             RollMany(17, 0);
 

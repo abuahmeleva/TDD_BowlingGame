@@ -36,7 +36,6 @@ namespace BowlinGameKata
                     score += SumOfBallsInFrame(roll);
                     roll += 2;
                 }
-                roll += 2;
             }
             return score;
         }
