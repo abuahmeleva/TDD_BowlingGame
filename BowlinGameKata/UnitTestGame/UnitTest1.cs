@@ -7,11 +7,23 @@ namespace UnitTestGame
     [TestClass]
     public class UnitTest1
     {
+        private Game g;
+
+        [TestInitialize]
+        public void Initialize()
+        {
+            g = new Game();
+        }
+
+        [TestCleanup]
+        public void Cleanup()
+        {
+            g = null;
+        }
+
         [TestMethod]
         public void TestGutterGame()
         {
-            Game g = new Game();
-
             for (int i = 0; i < 20; i++)
             {
                 g.Roll(0);
