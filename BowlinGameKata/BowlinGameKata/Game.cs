@@ -11,7 +11,7 @@ namespace BowlinGameKata
 
         public void Roll(int pins)
         {
-            
+            score += pins;
         }
 
         public object Score()
