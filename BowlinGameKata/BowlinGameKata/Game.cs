@@ -21,7 +21,6 @@ namespace BowlinGameKata
             int roll = 0;
             for (int frame = 0; frame < 10; frame++)
             {
-                // spare
                 if (IsSpare(roll))
                 {
                     score += 10 + rolls[roll + 2];
