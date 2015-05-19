@@ -27,6 +27,8 @@ namespace UnitTestGame
             int rolls = 20;
             int pins = 0;
 
+            RollMany(rolls, pins);
+
             for (int i = 0; i < rolls ; i++)
             {
                 g.Roll(pins);
