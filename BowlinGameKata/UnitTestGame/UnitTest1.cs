@@ -21,21 +21,22 @@ namespace UnitTestGame
             g = null;
         }
 
-        [TestMethod]
-        public void TestGutterGame()
+        public void RollMany(int rolls, int pins)
         {
-            int rolls = 20;
-            int pins = 0;
-
-            RollMany(rolls, pins);
-
-            for (int i = 0; i < rolls ; i++)
+            for (int i = 0; i < rolls; i++)
             {
                 g.Roll(pins);
             }
+        }
+
+        [TestMethod]
+        public void TestGutterGame()
+        {
+            RollMany(20, 0);
 
             Assert.AreEqual(0, g.Score());
         }
+
 
         [TestMethod]
         public void TestAllGame()
