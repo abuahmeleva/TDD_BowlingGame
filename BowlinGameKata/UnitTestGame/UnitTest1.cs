@@ -11,6 +11,11 @@ namespace UnitTestGame
         public void TestGutterGame()
         {
             Game g = new Game();
+
+            for (int i = 0; i < 20; i++)
+            {
+                g.Roll(0);
+            }
         }
 
     }
