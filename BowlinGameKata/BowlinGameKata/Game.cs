@@ -11,5 +11,10 @@ namespace BowlinGameKata
         {
             throw new System.NotImplementedException();
         }
+
+        public object Score()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
