@@ -22,7 +22,7 @@ namespace BowlinGameKata
             for (int frame = 0; frame < 10; frame++)
             {
                 // spare
-                if (rolls[roll] + rolls[roll + 1] == 10)
+                if (IsSpare(roll))
                 {
                     score += 10 + rolls[roll + 2];
                 }
@@ -33,6 +33,11 @@ namespace BowlinGameKata
                 roll += 2;
             }
             return score;
+        }
+
+        private bool IsSpare(int roll)
+        {
+            return rolls[roll] + rolls[roll + 1] == 10;
         }
     }
 }
