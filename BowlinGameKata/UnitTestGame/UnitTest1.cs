@@ -39,14 +39,9 @@ namespace UnitTestGame
 
 
         [TestMethod]
-        public void TestAllGame()
+        public void TestAllOnes()
         {
-            Game g = new Game();
-
-            for (int i = 0; i < 20; i++)
-            {
-                g.Roll(1);
-            }
+            RollMany(20, 1);
 
             Assert.AreEqual(20, g.Score());
         }
