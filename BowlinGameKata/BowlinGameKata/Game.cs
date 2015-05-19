@@ -7,5 +7,9 @@ namespace BowlinGameKata
 {
     public class Game
     {
+        public void Roll(int p)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
