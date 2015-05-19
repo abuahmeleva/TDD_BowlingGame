@@ -24,9 +24,12 @@ namespace UnitTestGame
         [TestMethod]
         public void TestGutterGame()
         {
-            for (int i = 0; i < 20; i++)
+            int rolls = 20;
+            int pins = 0;
+
+            for (int i = 0; i < rolls ; i++)
             {
-                g.Roll(0);
+                g.Roll(pins);
             }
 
             Assert.AreEqual(0, g.Score());
