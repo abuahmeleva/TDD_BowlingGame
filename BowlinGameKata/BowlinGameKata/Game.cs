@@ -7,14 +7,16 @@ namespace BowlinGameKata
 {
     public class Game
     {
-        public void Roll(int p)
+        private int score;
+
+        public void Roll(int pins)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public object Score()
         {
-            throw new System.NotImplementedException();
+            return score;
         }
     }
 }
